@@ -1,0 +1,24 @@
+Seyahat Planlama Uygulaması
+
+- **Amaç:** Kullanıcılar seyahat rotaları oluşturup, bu rotalar için konaklama seçenekleri ekleyebilir. Daha sonra seçilen rota ve konaklama ile seyahat planları yapılabilir ve yönetilebilir.
+
+- **Sınıflar:**
+  - `Konaklama`: Konaklama tesisi adı ve fiyat bilgisi.
+  - `Rota`: Seyahat rotası adı, rotaya bağlı konaklama seçenekleri listesi.
+  - `Seyahat`: Rotlar ve seyahat planlarının tutulduğu ana yapı.
+  - `SeyahatPlanlamaApp`: Tkinter arayüzü ve uygulama mantığı.
+
+- **Özellikler:**
+  - Rota ekleme (isimle)
+  - Rota seçilerek konaklama ekleme (isim ve fiyatla)
+  - Rota seçip konaklama seçerek seyahat planı oluşturma
+  - Oluşturulan planların listelenmesi
+  - Seçili planın silinmesi
+
+- **Kullanım:**
+  1. Rota adı girilip “Rota Ekle” ile yeni rota oluşturulur.
+  2. Rota seçilip, konaklama adı ve fiyat girilerek “Konaklama Ekle” yapılır.
+  3. Rota ve konaklama seçilip “Planı Kaydet” butonuyla seyahat planı oluşturulur.
+  4. Planlar listede görünür, istenirse seçilip “Seçili Planı Sil” ile kaldırılır.
+
+- **Arayüz Rengi:** Açık mavi (#e3f2fd) teması kullanıldı.
